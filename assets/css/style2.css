@@ -33,15 +33,13 @@ h2 {font-variant-caps: all-small-caps;}
         - Make the name of each menu item appear in bold 
         - set the font size to 16px
 */
-dt {
-    display: inline; font-size: 16px; font-weight: bold;
-}
+dt {display: inline; font-size: 16px; font-weight: bold;}
 
 /* 
     Add a CSS ruleset to accomplish the following:
     - Make a comma appear after the name of each menu item
 */
-dt {}
+dt:after {content: ", "; }
 
 
 dd {display: inline; margin: 0;}
