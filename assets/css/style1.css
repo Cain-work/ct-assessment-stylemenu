@@ -18,7 +18,7 @@ body {font-family:'Lato', sans-serif; font-size: 18px;}
         - set the font size to 45px 
         - set the font color to #5d4037
 */
-h1 {font-family: 'Supermercado One', cursive; }
+h1 {font-family: 'Supermercado One', cursive; font-size: 45px; color:#5d4037 ; }
 
 /* 
     Update the following ruleset (#menu) to accomplish the following:
@@ -27,8 +27,8 @@ h1 {font-family: 'Supermercado One', cursive; }
 #menu {
     columns: 400px 2;
     column-gap: 100px;
+    column-rule-color: rosybrown 2px; column-rule: dashed rosybrown;
 }
-
 section {padding-bottom: 50px;}
 h2 {margin: 0;}
 
