@@ -26,7 +26,7 @@ h2 {margin-top: 0;}
     Add a CSS ruleset targeting targeting the headings of the menu (e.g. "Starters") to accomplish the following:
         - Show each of the section headings of the menu in uppercase
 */
-h2 {font-variant-caps: titling-caps;}
+h2 {font-variant-caps: all-small-caps;}
 
 /* 
      Update the following ruleset (dt) to accomplish the following:
@@ -41,7 +41,7 @@ dt {
     Add a CSS ruleset to accomplish the following:
     - Make a comma appear after the name of each menu item
 */
-
+dt {}
 
 
 dd {display: inline; margin: 0;}
@@ -53,12 +53,12 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
     Add a CSS ruleset targeting the footer to accomplish the following:
     - right align the text in the footer
 */
-
+footer {text-align: right;}
 
 
 /* 
     Add a CSS ruleset targeting the starters and desserts sections to accomplish the following:
     - draw a 2px black border around the sections
 */
-
+#starters, #desserts { border: black solid 2px;}
 
